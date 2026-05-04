@@ -16,7 +16,7 @@ export HAPPYPOSE_DATA_DIR=/somewhere/convenient
 
 Download all model weights and example data with a single command:
 ```
-uv run python examples/download_data.py --all
+uv run happypose-download --all
 ```
 
 Individual downloads are also available if needed:
