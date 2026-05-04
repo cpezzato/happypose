@@ -108,6 +108,10 @@ extend-select = ["I", "RUF", "W"]
 all = true
 
 [tool.uv]
+override-dependencies = [
+    # bop-toolkit-lib pins pillow<=9.5.0 but modern consumers need >=10.0.
+    "pillow>=10.0",
+]
 conflicts = [
   [
     {extra = "cpu"},
