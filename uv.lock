@@ -987,7 +987,7 @@ requires-dist = [
     { name = "opencv-contrib-python", specifier = ">=4.11.0.86" },
     { name = "opencv-contrib-python", marker = "extra == 'pypi'", specifier = ">=4.10.0" },
     { name = "panda3d", specifier = ">=1.10.14" },
-    { name = "pin", specifier = "==2.7.0" },
+    { name = "pin", specifier = ">=2.7.0" },
     { name = "pin", marker = "extra == 'pypi'", specifier = ">=2.7" },
     { name = "plyfile", specifier = ">=1.1" },
     { name = "pybind11", specifier = ">=2.13.6" },
