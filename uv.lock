@@ -43,7 +43,11 @@ members = [
     "cosypose",
     "happypose",
 ]
-overrides = [{ name = "pillow", specifier = ">=10.0" }]
+
+[[manifest.dependency-metadata]]
+name = "bop-toolkit-lib"
+version = "0.1.0"
+requires-dist = ["numpy>=1.24", "pillow>=10.0", "pypng>=0.20220715.0", "pytz>=2025.2", "webdataset>=0.2.100", "pyopengl>=3.1.0", "imageio>=2.35.1", "scikit-image>=0.21.0", "scipy>=1.10.1", "vispy>=0.14.2"]
 
 [[manifest.dependency-metadata]]
 name = "torchnet"
