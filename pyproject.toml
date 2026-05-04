@@ -25,13 +25,16 @@ dependencies = [
   "bokeh>=3.6.0",
   "bop-toolkit-lib",
   "cosypose",
+  "gdown>=6.0.0",
   "httpx>=0.25.0",
   "imageio>=2.36.0",
   "ipython>=8.29.0",
   "joblib>=1.4.2",
   "meshcat>=0.3.2",
   "omegaconf>=2.3.0",
+  "opencv-contrib-python>=4.11.0.86",
   "panda3d>=1.10.14",
+  "pin==2.7.0",
   "plyfile>=1.1",
   "pybind11>=2.13.6",
   "pybullet>=3.2.6",
@@ -46,13 +49,15 @@ dependencies = [
   "seaborn>=0.12.2",
   "selenium>=4.25.0",
   "simplejson>=3.19.3",
+  "torch>=2.6.0",
   "torchnet>=0.0.4",
   "torchtnt>=0.2.4",
+  "torchvision>=0.21.0",
   "tqdm>=4.66.5",
   "transforms3d>=0.4.1",
   "trimesh>=4.5.1",
   "webdataset>=0.2.57",
-  "xarray>=2024.10.0"
+  "xarray>=2024.10.0",
 ]
 description = "Toolbox and trackers for object pose-estimation"
 maintainers = [

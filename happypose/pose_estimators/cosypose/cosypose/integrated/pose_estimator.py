@@ -180,6 +180,7 @@ class PoseEstimator(PoseEstimationModule):
                 timing_str += f"detection={elapsed:.2f}, "
 
         preds = {}
+        coarse_extra_data = {}
         if data_TCO_init is None:
             assert detections is not None
             assert self.coarse_model is not None
