@@ -130,7 +130,7 @@ dependency-metadata = [
     "scipy>=1.10.1",
     "vispy>=0.14.2",
   ]},
-  {name = "torchnet", requires-dist = ["six", "visdom"]},
+  {name = "torchnet", requires-dist = ["six"]},
   {name = "torchtnt", requires-dist = [
     "fsspec",
     "numpy",
